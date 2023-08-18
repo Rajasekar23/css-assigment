@@ -1,0 +1,157 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box-model {
+    width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+}
+
+.food-img {
+    width: 100%;
+    border-radius: 14px;
+
+}
+.title {
+    padding: 0 15px;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.title p {
+    font-size: 20px;
+    color: gray;
+}
+
+.footer {
+    padding: 35px;
+    color: gray;
+    position: relative;
+}
+
+.max-safety-img {
+    width: 18%;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    padding: 5px;
+}
+
+.max-desc {
+    width: 77%;
+    position: absolute;
+    right: 0;
+    font-size: 17px;
+    top: 0;
+    padding: 5px;
+
+}
+
+
+.img-section {
+    position: relative;
+}
+.promoted {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(255, 234, 213);
+    color: rgb(96, 48, 0);
+    padding: 3px 25px;
+}
+
+.offer {
+    position: absolute;
+    bottom: 20px;
+    padding: 3px 25px;
+    background-color: rgb(27, 13, 212);
+    color: white;
+}
+
+.delivery-time {
+    position: absolute;
+    padding: 5px 25px;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(254, 251, 248);
+    color: black;
+    border-radius: 10px;
+}
+
+
+.india-img {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+
+.box-model-india {
+    width: 700px;
+    margin: 10px auto;
+    position: relative;
+
+}
+
+.content {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 20px;
+    left: 15px;
+    text-align: center;
+}
+
+.con-btn {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+.con-title {
+    font-size: 30px;
+}
+
+
+.card {
+    width: 500px;
+    margin: 10px auto;
+    border: 1px solid lightgray;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile-card {
+
+    position: relative;
+
+}
+
+.cover-img {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+
+}
+.profile-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    margin-bottom: -46px;
+    border: 2px solid white;
+}
+
+.profile-content {
+    text-align: center;
+}
+
+
+
